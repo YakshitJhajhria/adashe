@@ -8,6 +8,7 @@ module.exports = {
         caddiessilk: "#403A53",
         platinateblue: "#263FDE",
         midnightblue: "#20187B",
+        freefall: "#5A556B",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
