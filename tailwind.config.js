@@ -12,6 +12,7 @@ module.exports = {
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],
+        jost: ["Jost", "sans-serif"],
       },
     },
   },

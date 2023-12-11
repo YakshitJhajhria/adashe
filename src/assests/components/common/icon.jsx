@@ -467,3 +467,22 @@ export const TokenIcon = () => {
     </>
   );
 };
+export const RightarrowIcon = () => {
+  return (
+    <>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="19"
+        height="17"
+        viewBox="0 0 19 17"
+        fill="none"
+      >
+        <path
+          d="M9.55237 15.4392L16.2802 8.71138L9.55237 1.98357L10.6872 0.848755L18.5498 8.71138L10.6872 16.574L9.55237 15.4392Z"
+          fill="white"
+        />
+        <path d="M17.415 7.901V9.52216H0.392857V7.901H17.415Z" fill="white" />
+      </svg>
+    </>
+  );
+};
