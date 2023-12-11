@@ -1,8 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Projectadashe from "./assests/components/Projectadashe";
+import Smartcontract from "./assests/components/Smartcontract";
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <Projectadashe />
+      <Smartcontract />
+    </div>
+  );
 }
 
 export default App;
