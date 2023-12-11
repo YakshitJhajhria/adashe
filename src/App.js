@@ -1,7 +1,7 @@
 import "./App.css";
-import Buytoken from "./assests/components/Buytoken";
-import Projectadashe from "./assests/components/Projectadashe";
-import Smartcontract from "./assests/components/Smartcontract";
+import Buytoken from "./components/Buytoken";
+import Projectadashe from "./components/Projectadashe";
+import Smartcontract from "./components/Smartcontract";
 
 function App() {
   return (

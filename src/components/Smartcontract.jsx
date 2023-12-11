@@ -1,10 +1,10 @@
 import React from "react";
-import { smartcontractData } from "./common/helper";
+import { smartcontractData } from "./common/Helper";
 
 const Smartcontract = () => {
   return (
     <div className="max-w-[1599px] w-full mx-auto flex flex-col gap-[72px] pt-[50px] sm:pt-[70px] md:pt-[90px] xl:pt-[100px] 2xl:pt-[139px] pb-[50px] sm:pb-[70px] md:pb-[100px] xl:pb-[120px] 2xl:pb-[171px] px-3">
-      <div className="max-w-[570px] flex flex-col gap-[10px] sm:pl-[28px] pb-[14px]">
+      <div className="max-w-[570px] flex flex-col gap-[10px] sm:pl-[28px] pb-[14px] max-xl:mx-auto">
         <h2 className="text-bluemagenta font-montserrat font-bold text-[37px] leading-[45px] sm:text-[45px] sm:leading-[53px] md:text-[50px] md::leading-[58px] xl:text-[60px] xl:leading-[68px]">
           Smart Contract
         </h2>

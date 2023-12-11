@@ -1,7 +1,7 @@
 import React from "react";
-import sideimg from "../img/buy-token-img.png";
-import logo from "../img/logo.png";
-import { RightarrowIcon } from "./common/icon";
+import sideimg from "../assests/img/buy-token-img.png";
+import logo from "../assests/img/logo.png";
+import { RightarrowIcon } from "./common/Icon";
 
 const Buytoken = () => {
   return (

@@ -7,7 +7,7 @@ import {
   TokenIcon,
   TradefinanceIcon,
   VestingIcon,
-} from "./icon";
+} from "./Icon";
 
 export const iconsData = [
   {
