@@ -6,8 +6,8 @@ import Smartcontract from "./assests/components/Smartcontract";
 function App() {
   return (
     <div>
-      {/* <Projectadashe /> */}
-      {/* <Smartcontract /> */}
+      <Projectadashe />
+      <Smartcontract />
       <Buytoken />
     </div>
   );

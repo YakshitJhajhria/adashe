@@ -5,7 +5,7 @@ import { RightarrowIcon } from "./common/icon";
 
 const Buytoken = () => {
   return (
-    <div className="flex flex-col xl:flex-row relative">
+    <div className="flex flex-col xl:flex-row relative h-[960px]">
       <div>
         <a href="">
           <img
