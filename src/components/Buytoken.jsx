@@ -1,6 +1,6 @@
 import React from "react";
 import sideimg from "../assests/img/buy-token-img.png";
-import logo from "../assests/img/logo.png";
+import logo from "../assests/img/logo1.png";
 import { RightarrowIcon } from "./common/Icon";
 
 const Buytoken = () => {

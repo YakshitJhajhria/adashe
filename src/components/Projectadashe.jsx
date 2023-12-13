@@ -8,7 +8,7 @@ const Projectadashe = () => {
   };
   return (
     <div className="bg-gray-500/10 px-3 py-[50px] sm:py-[80px] md:py-[100px] xl:py-[150px] 2xl:py-[216px]">
-      <div className="max-w-[1586px] w-full mx-auto flex flex-col gap-[72px] ">
+      <div className="max-w-[1280px] 2xl:max-w-[1586px] w-full mx-auto flex flex-col gap-[72px] ">
         <div>
           <h2 className="text-bluemagenta font-montserrat font-bold text-[37px] leading-[45px] sm:text-[45px] sm:leading-[53px] md:text-[50px] md::leading-[58px] xl:text-[60px] xl:leading-[68px] h-[73px]">
             Project Adashe
