@@ -1,5 +1,3 @@
-import "./App.css";
-import Buytoken from "./components/Buytoken";
 import Faq from "./components/Faq";
 import Projectadashe from "./components/Projectadashe";
 import Smartcontract from "./components/Smartcontract";
@@ -12,7 +10,6 @@ function App() {
       <Projectadashe />
       <Smartcontract />
       <Faq />
-      <Buytoken />
     </div>
   );
 }

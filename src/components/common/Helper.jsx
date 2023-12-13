@@ -91,3 +91,25 @@ export const faqData = [
     Icon: <FaqArrowIcon />,
   },
 ];
+export const navLinks = [
+  {
+    link: "",
+    name: "ABOUT",
+  },
+  {
+    link: "",
+    name: "SERVICES",
+  },
+  {
+    link: "",
+    name: "ROADMAP",
+  },
+  {
+    link: "",
+    name: "TEAM",
+  },
+  {
+    link: "#faq",
+    name: "FAQ’s",
+  },
+];

@@ -4,7 +4,7 @@ import { faqData } from "./common/Helper";
 
 export default function Faq() {
   return (
-    <>
+    <div id="faq">
       <div className="max-w-[1920px] w-full p-4 mx-auto flex flex-col gap-[70px]">
         <p className="text-[#4F3BE5] text-[40px] leading-[48px] sm:text-[60px] font-bold family sm:leading-[68px] flex justify-center">
           FAQ’s
@@ -100,6 +100,6 @@ export default function Faq() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
