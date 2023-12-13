@@ -1,5 +1,6 @@
 import "./App.css";
 import Buytoken from "./components/Buytoken";
+import Faq from "./components/Faq";
 import Projectadashe from "./components/Projectadashe";
 import Smartcontract from "./components/Smartcontract";
 import Navbar from "./components/common/Navbar";
@@ -7,10 +8,11 @@ import Navbar from "./components/common/Navbar";
 function App() {
   return (
     <div>
-      {/* <Projectadashe /> */}
-      {/* <Smartcontract /> */}
-      {/* <Buytoken /> */}
       <Navbar />
+      <Projectadashe />
+      <Smartcontract />
+      <Faq />
+      <Buytoken />
     </div>
   );
 }

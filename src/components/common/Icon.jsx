@@ -486,3 +486,19 @@ export const RightarrowIcon = () => {
     </>
   );
 };
+export const FaqArrowIcon = () => {
+  return (
+    <>
+      <svg
+        className="w-[16px] h-[10px] sm:w-[20px] sm:h-[13px]"
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="13"
+        viewBox="0 0 20 13"
+        fill="none"
+      >
+        <path d="M10 13L0.473721 0.25L19.5263 0.25L10 13Z" fill="#999999" />
+      </svg>
+    </>
+  );
+};
