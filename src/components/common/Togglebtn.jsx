@@ -10,7 +10,7 @@ export default function Togglebtn() {
       <Switch
         checked={enabled}
         onChange={setEnabled}
-        className="inline-flex shrink-0 cursor-pointer rounded-full items-center"
+        className="inline-flex shrink-0 cursor-pointer items-center"
       >
         {enabled ? <DarkmodeIcon /> : <LightmodeIcon />}
       </Switch>

@@ -113,3 +113,39 @@ export const navLinks = [
     name: "FAQ’s",
   },
 ];
+export const siteMapLinks = [
+  {
+    link: "",
+    name: "About",
+  },
+  {
+    link: "",
+    name: "Service",
+  },
+  {
+    link: "",
+    name: "Roadmap",
+  },
+  {
+    link: "",
+    name: "Team",
+  },
+];
+export const companyLinks = [
+  {
+    link: "",
+    name: "Privacy Policy",
+  },
+  {
+    link: "",
+    name: "Careers",
+  },
+  {
+    link: "",
+    name: "Latest News",
+  },
+  {
+    link: "",
+    name: "FAQ’s",
+  },
+];
