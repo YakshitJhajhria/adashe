@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../../assests/img/logo.png";
 import { navLinks } from "./Helper";
 import { MenuIcon } from "./Icon";
 import Togglebtn from "./Togglebtn";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
+  const [activeSidebar, setActiveSidebar] = useState(false);
+  const toggleNavbar = () => {
+    setActiveSidebar(!activeSidebar);
+  };
   return (
     <div className="bg-white sticky top-0 px-3 py-[13px] h-[70px] sm:h-[98px] shadow-sm">
       <div className="max-w-[1280px] 2xl:max-w-[1602px] w-full mx-auto flex justify-between gap-5">
@@ -44,11 +49,22 @@ const Navbar = () => {
             <div>
               <Togglebtn />
             </div>
-            <button type="submit" className="block lg:hidden">
+            <button
+              type="submit"
+              className="block lg:hidden"
+              onClick={toggleNavbar}
+            >
               <MenuIcon />
             </button>
           </div>
         </div>
+      </div>
+      <div
+        className={`absolute left-0 duration-700 ease-in-out top-[-150%] ${
+          activeSidebar ? "top-[0px]" : "top-[-1500%] sm:top-[-1020%]"
+        } w-full`}
+      >
+        <Sidebar toggleNavbar={toggleNavbar} />
       </div>
     </div>
   );
